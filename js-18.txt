@@ -1,0 +1,10 @@
+let outputs;
+function evenOrOdd(number) {
+  if (number % 2 == 0) {
+    outputs = `Even`;
+  }else{
+    outputs = `Odd`;
+  }
+  
+  return outputs;
+}

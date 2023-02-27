@@ -1,0 +1,4 @@
+function evenOrOdd(number) {
+    const isEven= number % 2 ? "Odd" : "Even"
+    return isEven
+  }

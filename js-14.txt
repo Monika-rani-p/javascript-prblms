@@ -1,0 +1,1 @@
+onst even_or_odd = n => n & 1 ? 'Odd' : 'Even';

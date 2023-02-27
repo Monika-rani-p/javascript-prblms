@@ -1,0 +1,11 @@
+function evenOrOdd(number) {
+  console.log(number % 2)
+  if(number % 2 === 0) {
+    return 'Even';
+  }
+  if(number % 2 === 1 || -1) {
+    return 'Odd';
+  }
+  else {
+    return 'Only use whole numbers';}
+}
